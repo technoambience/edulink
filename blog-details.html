@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edulink Bootstrap Responsive Web Template </title>
+ <!-- Bootstrap css -->
+ <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+ <!-- Bootstrap Icons css -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+ <!-- Swiper slider css -->
+ <link rel="stylesheet" href="assets/plugins/Swiper-slider/swiper-bundle.min.css">
+ <!-- Glightbox popup css -->
+ <link rel="stylesheet" href="assets/plugins/glightbox/glightbox.css">
+ <!-- Animate css for animation -->
+ <link rel="stylesheet" href="assets/plugins/animate-css/animate.css">
+ <!-- aos css (Animation on scroll ) -->
+ <link rel="stylesheet" href="assets/plugins/aos/aos.css">
+ <!-- Fontawesome Icons css -->
+ <link rel="stylesheet" href="assets/plugins/icons/css/fontawesome.css">
+ <link rel="stylesheet" href="assets/plugins/icons/css/brands.css">
+ <link rel="stylesheet" href="assets/plugins/icons/css/solid.css">
+ <!-- Style css -->
+ <link rel="stylesheet" href="assets/css/style.css">
+
+  <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+
+<body>
+  <!-- preloader -->
+  <div id="preloader"></div>
+  <!-- Progress circle scroll to top -->
+  <div id="progress">
+    <div id="progress-value">
+      <i class="bi bi-arrow-up-short"></i>
+    </div>
+  </div>
+  <!-- Black Transparent Screen -->
+  <span class="screen-darken"></span>
+  <!-- End -->
+
+
+  
+<!-- Header section --> 
+<header class="header" id="header">
+  <div class="container">
+    <!-- Navigation Wrapper -->
+    <nav id="navbar_top" class="navbar navbar-expand-lg navbar-light">
+      <!-- Desktop Logo -->
+      <a href="index.html" class="logo innerlogo navbar-brand">
+        <img src="assets/img/logo.png" alt="image" >
+        
+      </a>
+      <!-- End -->
+      <!-- Mobile menu bar button -->
+      <button class="navbar-toggler order-2 order-md-3" type="button" data-bs-toggle="collapse"
+        data-trigger="navbar_main" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- End -->
+
+      <div class="mobile-offcanvas collapse navbar-collapse order-3 order-md-1" id="navbar_main">
+        <!-- Mobile slider menu from left -->
+        <div class="offcanvas-header1 ps-0 pt-0 mb-4">
+          <!-- Mobile logo -->
+          <a href="index.html" class="logo navbar-brand py-0">
+              <img src="assets/img/logo.png" alt="" >  
+          </a>
+          <!-- End -->
+          <!-- Mobile menu close button -->
+          <button class="btn-close float-end"></button>
+        </div>
+        <!-- End -->
+        <!-- Main menu for Desktop and Mobile -->
+          <ul class="navbar-nav mx-auto order-2">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="about.html" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+              <div class="dropdown-menu p-0 p-md-3">
+              <ul class="ps-0">
+                <li><a href="courses.html" class="dropdown-item">Courses</a></li>
+                <li><a href="course-details.html" class="dropdown-item">Course Details</a></li>
+                <li><a href="pricing.html" class="dropdown-item">Pricing</a></li>
+                <li><a href="instructors.html" class="dropdown-item">Instructors</a></li>
+                <li><a href="instructors-details.html" class="dropdown-item">Instructor Details</a></li>
+                <li><a href="faqs.html" class="dropdown-item">FAQ</a></li>
+                <li><a href="404.html" class="dropdown-item">404 Error</a></li>
+                  </ul>
+            </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown3" role="button"
+                data-bs-toggle="dropdown">Blog</a>
+                <div class="dropdown-menu p-0 p-md-3">
+                  <ul class="ps-0">
+                    <li><a href="blog.html" class="dropdown-item">Blog Grid</a></li>
+                    <li><a href="blog-right-sidebar.html" class="dropdown-item">Blog Right Sidebar</a></li>
+                    <li><a href="blog-details.html" class="dropdown-item">Single Blog</a></li>
+                  </ul>
+                </div>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          
+        <!-- Main menu for Desktop and Mobile End -->
+        <!-- Mobile menu Footer -->
+        <div class="offcanvas-menu-footer d-lg-none">
+          <div>
+            +91 - 704233XXXX<br>
+            <a href="#">Info@gmail.com</a>
+            <nav class="social__links-type2 d-flex justify-content-start mt-2">
+              <a href="#"><i class="bi bi-twitter twitter-color"></i></a>
+              <a href="#"><i class="bi bi-facebook facebook-color"></i></a>
+              <a href="#"><i class="bi bi-instagram instagram-color"></i></a>
+            </nav>
+          </div>
+          
+        </div>
+        <!-- End -->
+      </div>
+      <!-- End -->
+      <!-- Top Right section for Search -->
+      <div class="navbar-second order-1 order-md-2 ms-auto me-2 d-none d-lg-block">
+        <ul class="navbar-nav flex-row ecom-group">
+          <!-- Search toggle from top -->
+          <li class="nav-item d-flex align-items-center">
+            <!-- Search Icon -->
+            <a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+              <i class="bi bi-search me-3"></i>
+            </a>
+            <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+              <div class="offcanvas-header container">
+                <h5 id="offcanvasTopLabel">
+                  <a href="#" class="logo">
+                    <img src="assets/img/logo.png" alt="" >
+                  </a>
+                </h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                  aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body d-flex align-items-center justify-content-center">
+                <div class="container">
+                  <div class="col-12">
+                    <div class="mb-5">
+                      <h1>Search</h1>
+                    </div>
+                    <div class="search">
+                      <input type="search" class="form-control" placeholder="Type keyword and hit search button">
+                      <button class="btn"> <i class="bi bi-search"></i> </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- End -->
+          <!-- Button Top Right -->
+          <li>
+            <a href="#" class="btn btn-primary btn-size">Join Us Now</a>
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
+    <!-- End -->
+  </div>
+</header>
+<!-- End -->
+
+  <!-- main section -->
+  <main>
+    <!-- Full Width Banner -->
+    <section class="bg-color bg-pos-full bg-3" >
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-6 login_big-text p-5 d-flex flex-column justify-content-center align-items-start">
+            <h2 class="display-6">Blog Single</h2>
+            <nav aria-label="breadcrumb" class="page__header-navigation d-inline-block">
+              <ol class="breadcrumb mb-1">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Blog</li>
+              </ol>
+            </nav>
+          </div>
+          <div class="col-md-6 text-center">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Full Width Banner End -->
+    <!-- Body Section -->
+    <section class="section">
+      <div class="container">
+        <div class="row gy-4 gx-lg-4 gx-xl-5">
+         <!-- Col -->   
+          <div class="col-12 col-lg-8 px-lg-5">
+            <!-- Blog post wrapper -->
+            <div class="blog-box shadow">
+              <!-- Blog Image -->
+              <figure class="card-img-top overlay overlay-1">
+                <img src="assets/img/blog-img-01.jpg" alt="">
+              </figure>
+              <!-- Blog Image End -->
+              <!-- Blog Meta -->
+              <div class="blog-meta-wrapper pb-0">
+                <ul class="d-flex post-meta">
+                  <li class="post-author">
+                    <a href="#">
+                      <i class="bi bi-person"></i> <span>Author Name</span>
+                    </a>
+                  </li>
+                  <li class="post-date">
+                    <a href="#">
+                      <i class="bi bi-calendar"></i> <span>02 Jan, 2023</span>
+                    </a>
+                  </li>
+                  <li class="post-comment">
+                    <a href="#">
+                      <i class="bi bi-chat"></i> <span>4</span>
+                    </a>
+                  </li>
+                  <li class="post-likes ms-auto">
+                    <a href="#">
+                      <i class="bi bi-heart"></i> <span>2</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <!-- Blog Meta End -->
+              <!-- Blog Content -->
+              <div class="card-body pt-3">
+                <h2 class="heading-text">A Learning Platform to Learn New Skills For Brighter Future  </h2>
+                <div class="blog-content">
+                  <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                    the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                    type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                    also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
+                    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                    with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                  </p>
+                  <p>
+                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model
+                    text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various
+                    versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour
+                    and the like).
+                  </p>
+                  <figure class="blockstyle1">
+                    <blockquote class="blockquote">
+                      <p>It is a long established fact that a reader will be distracted by the readable content of a
+                        page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less
+                        normal distribution of letters, as opposed to using 'Content here, content here', making it look
+                        like readable English.</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                      Someone famous in <cite title="Source Title">Edward Norton</cite>
+                    </figcaption>
+                  </figure>
+
+                  <div class="row g-4 py-3">
+                    <div class="col-md-6">
+                      <figure>
+                        <img src="assets/img/blog-img-01.jpg" alt="" class="rounded">
+                      </figure>
+                    </div>
+                    <div class="col-md-6">
+                      <figure>
+                        <img src="assets/img/blog-img-02.jpg" alt="" class="rounded">
+                      </figure>
+                    </div>
+                  </div>
+                  <h3>Conclusion</h3>
+                  <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                    when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                    distribution of letters, as opposed to using 'Content here, content here', making it look like
+                    readable English.</p>
+                </div>
+                <div class="row">
+                  <div class="col-md-8">
+                    <div class="tags">
+                      <ul class="list-unstyled">
+                        <li><a href="#" class="btn btn-outline"> Web Design</a></li>
+                        <li><a href="#" class="btn btn-outline"> Coding</a></li>
+                        <li><a href="#" class="btn btn-outline"> SEO</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <nav class="nav social justify-content-center text-center">
+                      <a href="#" class="btn rounded-circle btn-sm btn-google">
+                        <i class="bi bi-google"></i>
+                      </a>
+                      <a href="#" class="btn rounded-circle btn-circle btn-sm btn-facebook">
+                        <i class="bi bi-facebook"></i>
+                      </a>
+                      <a href="#" class="btn rounded-circle btn-circle btn-sm btn-twitter">
+                        <i class="bi bi-twitter"></i>
+                      </a>
+                    </nav>
+                  </div>
+                </div>
+                <hr class="my-4">
+                <!-- Author -->
+                <div class="blog-author py-3">
+                  <ul class="list-unstyled d-flex">
+                    <li class="me-3">
+                      <figure>
+                        <img src="assets/img/08.jpg" alt="Author" class="rounded-circle author-img">
+                      </figure>
+                    </li>
+                    <li class="d-flex flex-column justify-content-center">
+                      <h6 class="mb-1"><a href="#">Nancy Drew</a></h6>
+                      <span class="muted author-meta">Sales Manager</span>
+                    </li>
+                    
+                  </ul>
+                  <div class="blog__author-comments">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut molestiae aliquam esse in velit
+                    similique pariatur veritatis adipisci incidunt atque, consequatur expedita corrupti iure quam minima
+                    dolor corporis eos aspernatur.
+                  </div>
+                  <div class="social__links-type2 mt-4">
+                    <a href="#"><i class="bi bi-twitter twitter-color"></i></a>
+                    <a href="#"><i class="bi bi-facebook facebook-color"></i></a>
+                    <a href="#"><i class="bi bi-instagram instagram-color"></i></a>
+                    <a href="#"><i class="bi bi-youtube youtube-color"></i></a>
+                  </div>
+                </div>
+                <!-- Author End -->
+                <hr class="my-4">
+
+                <div class="row g-4">
+                  <div class="col-md-6">
+                    <div class="new__article-wrapper d-flex">
+                      <div class="pre-icon me-3">
+                        <a href=""><i class="bi bi-arrow-left-short"></i></a>
+                      </div>
+                      <div class="article-box">
+                        <span> Previous Post</span>
+                        <h4 class="mt-2"><a href="#">5 Principles to become a good website Designer</a></h4>
+                        <p class="mt-2"><i class="bi bi-calendar3 me-2"></i> <span>8 June 2023</span></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="new__article-wrapper d-flex">
+                      <div class="article-box text-end">
+                        <span> Next Post</span>
+                        <h4 class="mt-2"><a href="#">Role of Digital Marketing in you Business</a></h4>
+                        <p class="mt-2"><i class="bi bi-calendar3 me-2"></i> <span>8 June 2023</span></p>
+                      </div>
+                      <div class="pre-icon ms-3">
+                        <a href="#"><i class="bi bi-arrow-right-short"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="comments mt-5">
+                  <h3 class="mb-4"> 5 Comments</h3>
+                  <!-- Comment Wrapper -->
+                  <div class="blog-author py-3">
+                    <!-- Comment -->
+                    <div>
+                      <ul class="list-unstyled d-flex">
+                        <li class="me-3">
+                          <figure>
+                            <img src="assets/img/01.jpg" alt="Author" class="rounded-circle author-img">
+                          </figure>
+                        </li>
+                        <li class="d-flex flex-column justify-content-center">
+                          <h6><a href="#">Tim Cook</a></h6>
+                          <span class="muted author-meta"><i class="bi bi-calendar3"></i> 14 Aug 2022</span>
+                        </li>
+                        <li class="ms-auto d-flex flex-column justify-content-center"><a href="#"
+                            class="btn btn-primary"><i class="bi bi-reply"></i> <span
+                              class="d-none d-md-inline-block">Reply</span> </a> </li>
+                      </ul>
+                      <div class="blog__author-comments">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut molestiae aliquam esse in velit
+                        similique pariatur veritatis adipisci incidunt atque, consequatur expedita corrupti iure quam
+                        minima dolor corporis eos aspernatur.
+                      </div>
+                    </div>
+                    <!-- Comment End -->
+                    <!--  Child Comment -->
+                    <div class="reply-comment mt-3 ms-0 ms-md-4 ps-2 ps-md-4">
+                      <div class="blog-author py-3">
+                        <ul class="list-unstyled d-flex mb-4">
+                          <li class="me-3">
+                            <figure>
+                              <img src="assets/img/09.jpg" alt="Author" class="rounded-circle author-img">
+                            </figure>
+                          </li>
+                          <li class="d-flex flex-column justify-content-center">
+                            <h6><a href="#">John Doe</a></h6>
+                            <span class="muted author-meta"><i class="bi bi-calendar3"></i> 14 Aug 2022</span>
+                          </li>
+                          <li class="ms-auto d-flex flex-column justify-content-center"><a href="#"
+                              class="btn btn-primary"><i class="bi bi-reply"></i> <span
+                                class="d-none d-md-inline-block">Reply</span> </a> </li>
+                        </ul>
+                        <div class="blog__author-comments">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut molestiae aliquam esse in velit
+                          similique pariatur veritatis adipisci incidunt atque, consequatur expedita corrupti iure quam
+                          minima dolor corporis eos aspernatur.
+                        </div>
+                      </div>
+                      <!-- Sub Child Comment -->
+                      <div class="reply-comment mt-3 ms-0 ms-md-4 ps-4">
+                        <div class="blog-author py-3">
+                          <ul class="list-unstyled d-flex mb-4">
+                            <li class="me-3">
+                              <figure>
+                                <img src="assets/img/04.jpg" alt="Author" class="rounded-circle author-img">
+                              </figure>
+                            </li>
+                            <li class="d-flex flex-column justify-content-center">
+                              <h6><a href="#">Edward Norton</a></h6>
+                              <span class="muted author-meta"><i class="bi bi-calendar3"></i> 14 Aug 2022</span>
+                            </li>
+                            <li class="ms-auto d-flex flex-column justify-content-center"><a href="#"
+                                class="btn btn-primary"><i class="bi bi-reply"></i> <span
+                                  class="d-none d-md-inline-block">Reply</span> </a> </li>
+                          </ul>
+                          <div class="blog__author-comments">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut molestiae aliquam esse in
+                            velit similique pariatur veritatis adipisci incidunt atque, consequatur expedita corrupti
+                            iure quam minima dolor corporis eos aspernatur.
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Sub Child Comment End -->
+                    </div>
+                  </div>
+                  <!-- Comment Wrapper End -->
+                  <!-- Comment Wrapper -->
+                  <div class="blog-author py-3">
+                    <!-- Comment -->
+                    <div>
+                      <ul class="list-unstyled d-flex">
+                        <li class="me-3">
+                          <figure>
+                            <img src="assets/img/07.jpg" alt="Author" class="rounded-circle author-img">
+                          </figure>
+                        </li>
+                        <li class="d-flex flex-column justify-content-center">
+                          <h6><a href="#">Raghav Singh</a></h6>
+                          <span class="muted author-meta"><i class="bi bi-calendar3"></i> 14 Aug 2022</span>
+                        </li>
+                        <li class="ms-auto d-flex flex-column justify-content-center"><a href="#"
+                            class="btn btn-primary"><i class="bi bi-reply"></i> <span
+                              class="d-none d-md-inline-block">Reply</span> </a> </li>
+                      </ul>
+                      <div class="blog__author-comments">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut molestiae aliquam esse in velit
+                        similique pariatur veritatis adipisci incidunt atque, consequatur expedita corrupti iure quam
+                        minima dolor corporis eos aspernatur.
+                      </div>
+                    </div>
+                    <!-- End -->
+                    <!--  Child Comment -->
+                    <div class="reply-comment mt-3 ms-0 ms-md-4 ps-2 ps-md-4">
+                      <div class="blog-author py-3">
+                        <ul class="list-unstyled d-flex mb-4">
+                          <li class="me-3">
+                            <figure>
+                              <img src="assets/img/06.jpg" alt="Author" class="rounded-circle author-img">
+                            </figure>
+                          </li>
+                          <li class="d-flex flex-column justify-content-center">
+                            <h6><a href="#">Jennifer Thomas</a></h6>
+                            <span class="muted author-meta"><i class="bi bi-calendar3"></i> 14 Aug 2022</span>
+                          </li>
+                          <li class="ms-auto d-flex flex-column justify-content-center"><a href="#"
+                              class="btn btn-primary"><i class="bi bi-reply"></i> <span
+                                class="d-none d-md-inline-block">Reply</span> </a> </li>
+                        </ul>
+                        <div class="blog__author-comments">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut molestiae aliquam esse in velit
+                          similique pariatur veritatis adipisci incidunt atque, consequatur expedita corrupti iure quam
+                          minima dolor corporis eos aspernatur.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Comment Wrapper End -->
+                </div>
+
+                <hr class="mb-5">
+                <!-- Feedback Form -->
+                <div class="comment-form">
+                  <h3>Would you like to share your thoughts?</h3>
+                  <p>Your email address will not be published. Required fields are marked *</p>
+                  <form action="#" class="formstyle">
+                    <div class="form-floating mb-4">
+                      <input type="text" class="form-control form-control-shadow" placeholder="name" id="c-name"
+                        required>
+                      <label for="c-name">Name*</label>
+                    </div>
+                    <div class="form-floating mb-4">
+                      <input type="email" class="form-control form-control-shadow" placeholder="email" id="c-email"
+                        required>
+                      <label for="c-email">Email*</label>
+                    </div>
+                    <div class="form-floating mb-4">
+                      <input type="text" class="form-control form-control-shadow" placeholder="website" id="website">
+                      <label for="website">Website</label>
+                    </div>
+                    <div class="form-floating mb-4">
+                      <textarea class="form-control form-control-shadow" id="c-message" rows="3" style="height:150px;"
+                        placeholder="Comments"></textarea>
+                      <label for="c-message" class="form-label">Comments</label>
+                    </div>
+                    <div class="mb-4">
+                      <input type="submit" class="btn btn-primary" value="Submit">
+                    </div>
+                  </form>
+                </div>
+                <!-- Feedback Form -->
+              </div>
+              <!-- Blog Content End -->
+            </div>
+            <!-- Blog post wrapper -->
+          </div>
+          <!-- Col End -->
+          <!-- Col -->
+          <div class="col-12 col-lg-4">
+            <!-- Blog sidebar -->
+            <div class="widget-sidebar">
+              <!-- Search Blog -->
+
+              <div class="blog__post-wrapper card p-3 mb-4">
+                
+                <form action="">
+                  <div class="formstyle">
+                    <div class="search search-box">
+                      <input type="search" class="form-control" placeholder="Search">
+                      <button class="btn"> <i class="bi bi-search"></i> </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <!-- Recent Posts widget --> 
+              <div class="blog__post-wrapper card p-3 mb-4">
+                <h3 class="mb-3">Recent Post</h3>
+                <ul>
+                  <li>
+                    <div class="d-flex flex-row mb-3">
+                      <figure class="cart__prd-img">
+                        <a href="#">
+                          <img src="assets/img/blog-img-01.jpg" alt="" class="rounded">
+                        </a>
+                      </figure>
+                      <div class="w-100 ms-4">
+                        <h4 class="cart-title"><a href="blog-details.html"> A Learning Platform to Learn New Skills  For Brighter Future </a></h4>
+                        <p class="post-date">
+                          <a href="#">
+                          <i class="bi bi-calendar3 me-2"></i> 
+                          <span class="small">8 June 2023</span></a></p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="d-flex flex-row mb-3">
+                      <figure class="cart__prd-img">
+                        <a href="#">
+                          <img src="assets/img/blog-img-02.jpg" alt="" class="rounded">
+                        </a>
+                      </figure>
+                      <div class="w-100 ms-4">
+                        <h4 class="cart-title"><a href="blog-details.html"> Full Stack Frontend Developer With Next js and Node.js</a>
+                        </h4>
+                        <p class="post-date">
+                          <a href="#">
+                          <i class="bi bi-calendar3 me-2"></i> 
+                          <span class="small">8 June 2023</span></a></p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="d-flex flex-row mb-3">
+                      <figure class="cart__prd-img">
+                        <a href="#">
+                          <img src="assets/img/blog-img-03.jpg" alt="" class="rounded">
+                        </a>
+                      </figure>
+                      <div class="w-100 ms-4">
+                        <h4 class="cart-title"><a href="blog-details.html"> 10 Important Tips That Every Frontend Developer Should Know</a>
+                        </h4>
+                        <p class="post-date">
+                          <a href="#">
+                          <i class="bi bi-calendar3 me-2"></i> 
+                          <span class="small">8 June 2023</span></a></p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <!-- Recent Posts widget End -->
+              <!-- Categories widget -->  
+              <div class="widget-sidebar card p-3 mb-4">
+                <h3 class="widget-heading">Categories</h3>
+                <div class="blog-sidebar-links bullets">
+                  <ul class="ps-3">
+                    <li><a href="#">Web Design <span>(4)</span></a></li>
+                    <li><a href="#">Web Development <span>(5)</span></a></li>
+                    <li><a href="#">Data Analysts  <span>(5)</span></a></li>
+                    <li><a href="#">Seo & Content <span>(15)</span></a></li>
+                    <li><a href="#">Digital Marketing <span>(10)</span></a></li>
+                    
+                  </ul>
+                </div>
+              </div>
+              <!-- Categories widget End -->
+              <!-- Tags widget -->
+              <div class="widget-sidebar card p-3 mb-4">
+                <h3 class="widget-heading">Tags</h3>
+                <div class="blog-sidebar-links tags mt-4">
+                  <ul>
+                    <li><a href="#" class="btn btn-outline"> Web Design</a></li>
+                    <li><a href="#" class="btn btn-outline"> SEO</a></li>
+                    <li><a href="#" class="btn btn-outline"> Data Analysts</a></li>
+                    <li><a href="#" class="btn btn-outline"> Coding</a></li>
+                    <li><a href="#" class="btn btn-outline"> Web Development</a></li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Tags widget End -->
+
+              <!-- Archive widget -->
+              <div class="widget-sidebar card p-3">
+                <h3 class="widget-heading">Archive</h3>
+                <div class="blog-sidebar-links bullets">
+                  <ul class="ps-3">
+                    <li><a href="#">June 22</a></li>
+                    <li><a href="#">May 22</a></li>
+                    <li><a href="#">April 22</a></li>
+                    <li><a href="#">March 22</a></li>
+                    <li><a href="#">Febuary 22</a></li>
+                    <li><a href="#">January 22</a></li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Archive widget End -->  
+            </div>
+            <!-- Blog sidebar End -->
+          </div><!-- Col End -->
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Body Section End -->
+ <!-- Footer section -->
+ <footer class="footer pb-0">
+  <div class="container p-4">
+    <div class="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-4" data-aos="fade-right" data-aos-once="ture"
+      data-aos-duration="500" data-aos-delay="20">
+      <!-- Col 1 -->
+      <div class="col">
+        <div class="footer__col-one">
+          <!-- Footer Logo -->
+          <a href="#" class="footer-logo">
+            <img src="assets/img/footer-logo.png" alt="">
+          </a>
+          <!-- End -->
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's</p>
+          
+        </div>
+        <div class="social-links">
+          <a href="#"><i class="bi bi-twitter"></i></a>
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-youtube"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+      <!-- End -->
+      <!-- Col 2 -->
+      <div class="col" data-aos="fade-right" data-aos-once="ture" data-aos-duration="600" data-aos-delay="40">
+        <h5>Company</h5>
+        <ul class="mt-3">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <!-- End -->
+      <!-- Col 3 -->
+      <div class="col" data-aos="fade-right" data-aos-once="ture" data-aos-duration="700" data-aos-delay="60">
+        <h5>Support</h5>
+        <ul class="mt-3">
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="faqs.html">FAQ's</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="#">Policies</a></li>
+        </ul>
+      </div>
+      <!-- End -->
+      <!-- Col 4 -->
+      <div class="col" data-aos="fade-right" data-aos-once="ture" data-aos-duration="800" data-aos-delay="80">
+        <h5>Conection with us</h5>
+        <address>
+          Edulink<br>
+          Delhi NCR, Faridabad, Haryana
+          121004, India<br>
+          <strong>Phone No.</strong> +91- 704233XXXX
+        </address>
+      </div>
+      <!-- End -->
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col text-center footer-border-top">
+        <p class="small text-white text-styling mt-4">Copyright@2023. All Rights Reserved | Designed by : <a href="https://technoambience.com/" target="_blank">Technoambience.com</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Footer End -->
+
+
+  <!-- Bootstrap js -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <!-- aos.js for animation on scroll -->
+  <script src="assets/plugins/aos/aos.js"></script>
+  <!-- Swiper slider js -->
+  <script src="assets/plugins/Swiper-slider/swiper-bundle.min.js"></script>
+  <!-- Glightbox js -->
+  <script src="assets/plugins/glightbox/glightbox.min.js"></script>
+  <!-- Script for Counter -->
+  <script src="assets/plugins/counter/jquery.min.js"></script>
+  <script src="assets/plugins/counter/waypoints.min.js"></script>
+  <script src="assets/plugins/counter/jquery.counterup.min.js"></script>
+  <!-- function.js -->
+  <script src="assets/js/function.js"></script>
+
+</body>
+
+</html>

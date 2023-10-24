@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 24 24" fill="none" width="30px" height="30px" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-circle"><circle cx="12" cy="12" r="10"></circle>
+
+<defs>
+        <linearGradient id="linearGradient-1">
+          <stop offset="5%" stop-color="#4c4cf0" />
+          <stop offset="95%" stop-color="#4c4cf0" />
+        </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,1201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transport Bootstrap Responsive Web Template  </title>
+  <!-- Bootstrap css -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- Bootstrap Icons css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <!-- Swiper slider css -->
+  <link rel="stylesheet" href="assets/plugins/Swiper-slider/swiper-bundle.min.css">
+  <!-- Glightbox popup css -->
+  <link rel="stylesheet" href="assets/plugins/glightbox/glightbox.css">
+  <!-- Animate css for animation -->
+  <link rel="stylesheet" href="assets/plugins/animate-css/animate.css">
+  <!-- aos css (Animation on scroll ) -->
+  <link rel="stylesheet" href="assets/plugins/aos/aos.css">
+  <!-- Fontawesome Icons css -->
+  <link rel="stylesheet" href="assets/plugins/icons/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/plugins/icons/css/brands.css">
+  <link rel="stylesheet" href="assets/plugins/icons/css/solid.css">
+  <!-- Style css -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+
+<body>
+  <!-- preloader -->
+  <div id="preloader"></div>
+  <!-- Progress circle scroll to top -->
+  <div id="progress">
+    <div id="progress-value">
+      <i class="bi bi-arrow-up-short"></i>
+    </div>
+  </div>
+<!-- Black Transparent Screen -->
+<span class="screen-darken"></span>
+<!-- End -->
+
+
+
+<!-- Header section --> 
+<header class="header" id="header">
+  <div class="container">
+    <!-- Navigation Wrapper -->
+    <nav id="navbar_top" class="navbar navbar-expand-lg navbar-light">
+      <!-- Desktop Logo -->
+      <a href="index.html" class="logo innerlogo navbar-brand">
+        <img src="assets/img/logo.png" alt="image" >
+        
+      </a>
+      <!-- End -->
+      <!-- Mobile menu bar button -->
+      <button class="navbar-toggler order-2 order-md-3" type="button" data-bs-toggle="collapse"
+        data-trigger="navbar_main" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- End -->
+
+      <div class="mobile-offcanvas collapse navbar-collapse order-3 order-md-1" id="navbar_main">
+        <!-- Mobile slider menu from left -->
+        <div class="offcanvas-header1 ps-0 pt-0 mb-4">
+          <!-- Mobile logo -->
+          <a href="index.html" class="logo navbar-brand py-0">
+              <img src="assets/img/logo.png" alt="" >  
+          </a>
+          <!-- End -->
+          <!-- Mobile menu close button -->
+          <button class="btn-close float-end"></button>
+        </div>
+        <!-- End -->
+        <!-- Main menu for Desktop and Mobile -->
+          <ul class="navbar-nav mx-auto order-2">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="about.html" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+              <div class="dropdown-menu p-0 p-md-3">
+              <ul class="ps-0">
+                <li><a href="courses.html" class="dropdown-item">Courses</a></li>
+                <li><a href="course-details.html" class="dropdown-item">Course Details</a></li>
+                <li><a href="pricing.html" class="dropdown-item">Pricing</a></li>
+                <li><a href="instructors.html" class="dropdown-item">Instructors</a></li>
+                <li><a href="instructors-details.html" class="dropdown-item">Instructor Details</a></li>
+                <li><a href="faqs.html" class="dropdown-item">FAQ</a></li>
+                <li><a href="404.html" class="dropdown-item">404 Error</a></li>
+                  </ul>
+            </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown3" role="button"
+                data-bs-toggle="dropdown">Blog</a>
+                <div class="dropdown-menu p-0 p-md-3">
+                  <ul class="ps-0">
+                    <li><a href="blog.html" class="dropdown-item">Blog Grid</a></li>
+                    <li><a href="blog-right-sidebar.html" class="dropdown-item">Blog Right Sidebar</a></li>
+                    <li><a href="blog-details.html" class="dropdown-item">Single Blog</a></li>
+                  </ul>
+                </div>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          
+        <!-- Main menu for Desktop and Mobile End -->
+        <!-- Mobile menu Footer -->
+        <div class="offcanvas-menu-footer d-lg-none">
+          <div>
+            +91 - 704233XXXX<br>
+            <a href="#">Info@gmail.com</a>
+            <nav class="social__links-type2 d-flex justify-content-start mt-2">
+              <a href="#"><i class="bi bi-twitter twitter-color"></i></a>
+              <a href="#"><i class="bi bi-facebook facebook-color"></i></a>
+              <a href="#"><i class="bi bi-instagram instagram-color"></i></a>
+            </nav>
+          </div>
+          
+        </div>
+        <!-- End -->
+      </div>
+      <!-- End -->
+      <!-- Top Right section for Search -->
+      <div class="navbar-second order-1 order-md-2 ms-auto me-2 d-none d-lg-block">
+        <ul class="navbar-nav flex-row ecom-group">
+          <!-- Search toggle from top -->
+          <li class="nav-item d-flex align-items-center">
+            <!-- Search Icon -->
+            <a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+              <i class="bi bi-search me-3"></i>
+            </a>
+            <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+              <div class="offcanvas-header container">
+                <h5 id="offcanvasTopLabel">
+                  <a href="#" class="logo">
+                    <img src="assets/img/logo.png" alt="" >
+                  </a>
+                </h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                  aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body d-flex align-items-center justify-content-center">
+                <div class="container">
+                  <div class="col-12">
+                    <div class="mb-5">
+                      <h1>Search</h1>
+                    </div>
+                    <div class="search">
+                      <input type="search" class="form-control" placeholder="Type keyword and hit search button">
+                      <button class="btn"> <i class="bi bi-search"></i> </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- End -->
+          <!-- Button Top Right -->
+          <li>
+            <a href="#" class="btn btn-primary btn-size">Join Us Now</a>
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
+    <!-- End -->
+  </div>
+</header>
+<!-- End -->
+
+  <!-- main section -->
+  <main>
+    <!-- Full Width Banner -->
+    <section class="bg-color bg-pos-full gradient-bg01">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 p-5">
+              <div class="cour-detail-box">
+                <div class="star-rating mb-1">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i> 5 (200)
+                </div>
+              </div>
+              <div class="mb-3 course-other-info">
+                <span><i class="bi bi-journals"></i> 47 lessons</span>
+                <span><i class="bi bi-clock"></i> 30 hours</span>
+                <span><i class="bi bi-person-fill"></i> 40</span>
+              </div>
+              <div class="mb-4 prd-detail-txt">
+                <h2>Web Design</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              </div>
+              <div class="tutor-section tutor-prd-detail d-flex align-items-center pb-4 pt-2">
+                <div class="tutor-img lg-size me-3">
+                  <img src="assets/img/01.jpg" alt="">
+                </div>
+                <h6><a href="">Tim cook </a> </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Full Width Banner End -->
+<!-- Body Section -->
+<section class="section">
+    <div class="container">
+      <div class="row gx-md-5 gy-4">
+        <!-- Col -->
+        <div class="col-lg-8">
+          <!-- Tab Buttons -->
+          <ul class="nav nav-tabs nav-fill flex-column flex-md-row" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="overview-tab" data-bs-toggle="tab" data-bs-target="#overview"
+                type="button" role="tab" aria-controls="overview" aria-selected="true">Overview</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="curriculum-tab" data-bs-toggle="tab" data-bs-target="#curriculum"
+                type="button" role="tab" aria-controls="curriculum" aria-selected="false">Curriculum</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="instructor-tab" data-bs-toggle="tab" data-bs-target="#instructor"
+                type="button" role="tab" aria-controls="instructor" aria-selected="false">Instructor</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="reviews-tab" data-bs-toggle="tab" data-bs-target="#reviews" type="button"
+                role="tab" aria-controls="reviews" aria-selected="false">Reviews</button>
+            </li>
+          </ul>
+
+          <!-- Tab Content -->
+          <div class="tab-content" id="myTabContent">
+              <!-- Overview Tab Content -->
+            <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview-tab">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged.</p>
+              <p>
+                It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                distribution of letters, as opposed to using 'Content here, content here', making it look like
+                readable English.
+              </p>
+              
+                <h3>What you'll learn?</h3>
+                <ul class="list-style-2 mt-4">
+                  <li><i class="bi bi-check-lg bg-icon"></i> Create their own Python Programs</li>
+                  <li><i class="bi bi-check-lg bg-icon"></i> It is a long established fact that a reader </li>
+                  <li><i class="bi bi-check-lg bg-icon"></i> Parse the Web and Create their own Games</li>
+                  <li><i class="bi bi-check-lg bg-icon"></i> Become an experienced Python Programmer</li>
+                  <li><i class="bi bi-check-lg bg-icon"></i> Lorem Ipsum is simply dummy text</li>
+                  <li><i class="bi bi-check-lg bg-icon"></i> It is a long established fact that a reader</li>
+                </ul>
+              
+              <p class="mb-md-0">
+                It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                distribution of letters, as opposed to using 'Content here, content here', making it look like
+                readable English.
+              </p>
+            </div>
+            <!-- Overview Tab Content End -->
+            <!-- Curriculum Tab Content -->
+            <div class="tab-pane fade" id="curriculum" role="tabpanel" aria-labelledby="curriculum-tab">
+              <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header course-description" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button course-description-button" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                      aria-controls="panelsStayOpen-collapseOne">
+                      Jump Straight To Whatever You You Need To Know
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                    aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                      <ul class="course_list">
+                        <li>
+                          <div class="d-flex justify-content-between align-items-center course_content-box">
+                            <div class="d-flex justify-content-center align-items-center">
+                              <i class="bi bi-play-circle-fill me-3"></i>
+                              <a href="https://www.youtube.com/watch?v=_I9czy3cMBg&t=100s" class="glightbox4">Introduction</a>
+                            </div>
+                            <div class="d-flex">
+                              <a href="https://www.youtube.com/watch?v=_I9czy3cMBg&t=100s" class="glightbox4"><span class="badge badge-bg-color font-weight-normal">Preview</span></a>
+                              <span>04:07</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="d-flex justify-content-between align-items-center course_content-box">
+                            <div class="d-flex justify-content-center align-items-center course_item">
+                              <i class="bi bi-play-circle-fill me-3"></i>
+                              <a href="#">Lorem Ipsum is simply dummy text</a>
+                            </div>
+                            <div class="d-flex">
+                              <a href="#"><span class="badge badge-bg-color font-weight-normal">Preview</span></a>
+                              <span>01:37</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="d-flex justify-content-between align-items-center course_content-box">
+                            <div class="d-flex justify-content-center align-items-center course_item">
+                              <i class="bi bi-play-circle-fill me-3"></i>
+                              It is a long established fact that a reader
+                            </div>
+                            <div class="d-flex">
+                              <span><a href="#"><i class="bi bi-lock-fill"></i></a></span>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="d-flex justify-content-between align-items-center course_content-box">
+                            <div class="d-flex justify-content-center align-items-center course_item">
+                              <i class="bi bi-play-circle-fill me-3"></i>
+                              <a href="#">Lorem Ipsum is simply dummy text</a>
+                            </div>
+                            <div class="d-flex">
+                              <a href="#"><span class="badge badge-bg-color font-weight-normal">Preview</span></a>
+                              <span>03:43</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="d-flex justify-content-between align-items-center course_content-box">
+                            <div class="d-flex justify-content-center align-items-center course_item">
+                              <i class="bi bi-play-circle-fill me-3"></i>
+                              <a href="#">It is a long established fact that a reader</a>
+                            </div>
+                            <div class="d-flex">
+                              <span><a href="#"><i class="bi bi-lock-fill"></i></a></span>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header course-description" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button course-description-button collapsed" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseTwo">
+                      Desserts / Sweet Treats
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                      <ul class="course_list">
+                        <li>
+                          <div class="d-flex justify-content-between align-items-center course_content-box">
+                            <div class="d-flex justify-content-center align-items-center">
+                              <i class="bi bi-play-circle-fill me-3"></i>
+                              <a href="#">Introduction</a>
+                            </div>
+                            <div class="d-flex">
+                              <a href="#"><span class="badge badge-bg-color font-weight-normal">Preview</span></a>
+                              <span>04:07</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="d-flex justify-content-between align-items-center course_content-box">
+                            <div class="d-flex justify-content-center align-items-center course_item">
+                              <i class="bi bi-play-circle-fill me-3"></i>
+                              <a href="#">Lorem Ipsum is simply dummy text</a>
+                            </div>
+                            <div class="d-flex">
+                              <a href="#"><span class="badge badge-bg-color font-weight-normal">Preview</span></a>
+                              <span>01:37</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="d-flex justify-content-between align-items-center course_content-box">
+                            <div class="d-flex justify-content-center align-items-center course_item">
+                              <i class="bi bi-play-circle-fill me-3"></i>
+                              It is a long established fact that a reader
+                            </div>
+                            <div class="d-flex">
+                              <span><a href="#"><i class="bi bi-lock-fill"></i></a></span>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="d-flex justify-content-between align-items-center course_content-box">
+                            <div class="d-flex justify-content-center align-items-center course_item">
+                              <i class="bi bi-play-circle-fill me-3"></i>
+                              <a href="#">Lorem Ipsum is simply dummy text</a>
+                            </div>
+                            <div class="d-flex">
+                              <a href="#"><span class="badge badge-bg-color font-weight-normal">Preview</span></a>
+                              <span>03:43</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="d-flex justify-content-between align-items-center course_content-box">
+                            <div class="d-flex justify-content-center align-items-center course_item">
+                              <i class="bi bi-play-circle-fill me-3"></i>
+                              <a href="#">It is a long established fact that a reader</a>
+                            </div>
+                            <div class="d-flex">
+                              <span><a href="#"><i class="bi bi-lock-fill"></i></a></span>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header course-description" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button course-description-button collapsed" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseThree">
+                      Bonus / Extra Lessons 2 Topics
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                      <ul class="course_list">
+                        <li>
+                          <div class="d-flex justify-content-between align-items-center course_content-box">
+                            <div class="d-flex justify-content-center align-items-center">
+                              <i class="bi bi-play-circle-fill me-3"></i>
+                              <a href="#">Introduction</a>
+                            </div>
+                            <div class="d-flex">
+                              <a href="#"><span class="badge badge-bg-color font-weight-normal">Preview</span></a>
+                              <span>04:07</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="d-flex justify-content-between align-items-center course_content-box">
+                            <div class="d-flex justify-content-center align-items-center course_item">
+                              <i class="bi bi-play-circle-fill me-3"></i>
+                              <a href="#">Lorem Ipsum is simply dummy text</a>
+                            </div>
+                            <div class="d-flex">
+                              <a href="#"><span class="badge badge-bg-color font-weight-normal">Preview</span></a>
+                              <span>01:37</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="d-flex justify-content-between align-items-center course_content-box">
+                            <div class="d-flex justify-content-center align-items-center course_item">
+                              <i class="bi bi-play-circle-fill me-3"></i>
+                              It is a long established fact that a reader
+                            </div>
+                            <div class="d-flex">
+                              <span><a href="#"><i class="bi bi-lock-fill"></i></a></span>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="d-flex justify-content-between align-items-center course_content-box">
+                            <div class="d-flex justify-content-center align-items-center course_item">
+                              <i class="bi bi-play-circle-fill me-3"></i>
+                              <a href="#">Lorem Ipsum is simply dummy text</a>
+                            </div>
+                            <div class="d-flex">
+                              <a href="#"><span class="badge badge-bg-color font-weight-normal">Preview</span></a>
+                              <span>03:43</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="d-flex justify-content-between align-items-center course_content-box">
+                            <div class="d-flex justify-content-center align-items-center course_item">
+                              <i class="bi bi-play-circle-fill me-3"></i>
+                              <a href="#">It is a long established fact that a reader</a>
+                            </div>
+                            <div class="d-flex">
+                              <span><a href="#"><i class="bi bi-lock-fill"></i></a></span>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Curriculum Tab Content End -->
+            <!-- Instructor Tab Content -->
+            <div class="tab-pane fade" id="instructor" role="tabpanel" aria-labelledby="instructor-tab">
+              <div class="instructor-wrap d-md-flex">
+                <div class="tutor-section me-md-4">
+                  <div class="tutor-img lg-size-2x mb-4">
+                    <img src="assets/img/01.jpg" alt="">
+                  </div>
+                  <div class="instructor-social-links">
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-youtube"></i></a>
+                  </div>
+                </div>
+                <div class="instructor-descriptions">
+                  <h5 class="instructor-name">
+                    <a href="instructor-details.html"> Tim Cook </a>
+                  </h5>
+                  <span>Instructor</span>
+                  <p class="mt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                    the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                    type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                    also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Instructor Tab Content End -->
+            <!-- Review Tab Content -->
+            <div class="tab-pane fade" id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
+              <div class="row gy-4">
+                <div class="col-md-4">
+                  <div class="rating-output-box">
+                    <div class="big-txt">
+                      5.0
+                    </div>
+                    <div class="stars-collect star-rating py-2">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </div>
+                    <div class="total-stars-received">
+                      1 Total
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="rating-detail">
+                    <ul>
+                      <li>
+                        <div class="star-rating-box">
+                          <div class="star-rate">5 <span class="star-rating ms-1"><i class="bi bi-star-fill"></i></span></div>
+                          <div class="rating-bar">
+                            <div class="rating-gray"></div>
+                            <div class="rating-yellow"></div>
+                            <div class="rating-count">1</div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="star-rating-box">
+                          <div class="star-rate">4 <span class="star-rating ms-1"><i class="bi bi-star-fill"></i></span></div>
+                          <div class="rating-bar">
+                            <div class="rating-gray"></div>
+                            <div class="rating-count">0</div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="star-rating-box">
+                          <div class="star-rate">3 <span class="star-rating ms-1"><i class="bi bi-star-fill"></i></span></div>
+                          <div class="rating-bar">
+                            <div class="rating-gray"></div>
+                            <div class="rating-count">0</div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="star-rating-box">
+                          <div class="star-rate">2 <span class="star-rating ms-1"><i class="bi bi-star-fill"></i></span></div>
+                          <div class="rating-bar">
+                            <div class="rating-gray"></div>
+                            <div class="rating-count">0</div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="star-rating-box">
+                          <div class="star-rate">1 <span class="star-rating ms-1"><i class="bi bi-star-fill"></i></span></div>
+                          <div class="rating-bar">
+                            <div class="rating-gray"></div>
+                            <div class="rating-count">0</div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+                <!-- Reviews -->
+                <div class="instructor-wrap d-md-flex pt-5">
+                  <div class="tutor-section me-4 me-md-4">
+                    <div class="tutor-img lg-size-2x">
+                      <img src="assets/img/01.jpg" alt="">
+                    </div>
+                    
+                  </div>
+                  <div class="instructor-descriptions">
+                    <h5 class="instructor-name mb-1">Edward Norton </h5>
+                    <span class="date">Oct 10, 2022</span>
+                      <div class="star-rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill" style="color: rgb(176, 176, 176);"></i>
+                        <span>4.5</span> 
+                      </div>
+                      
+                    
+                    <p class="mt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                      the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                      type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                      also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                  </div>
+                </div>
+                <hr>
+                <div class="instructor-wrap d-md-flex text-center text-md-start pt-4">
+                  <div class="tutor-section d-grid justify-content-center align-items-start me-md-4">
+                    <div class="tutor-img lg-size-2x mb-3">
+                      <img src="assets/img/05.jpg" alt="">
+                    </div>
+                    
+                  </div>
+                  <div class="instructor-descriptions">
+                    <h5 class="instructor-name mb-1">Jennifer Thomas </h5>
+                    <span class="date">Oct 10, 2022</span>
+                      <div class="star-rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill" style="color: rgb(176, 176, 176);"></i>
+                        <span>4.5</span> 
+                      </div>
+                      
+                    
+                    <p class="mt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                      the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                      type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                      also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                  </div>
+                </div>
+                <!-- Review Form -->
+          <h3>ADD a Review</h3>
+          <p>Your email address will not be published. Required fields are marked *</p>
+          <form action="#" class="formstyle">
+            <div class="mb-4">
+              <label class="form-label">Your Rating <span>*</span></label>
+              <div class="star-rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill" style="color: rgb(176, 176, 176);"></i>
+                <i class="bi bi-star-fill" style="color: rgb(176, 176, 176);"></i>
+                <i class="bi bi-star-fill" style="color: rgb(176, 176, 176);"></i>
+                <i class="bi bi-star-fill" style="color: rgb(176, 176, 176);"></i>
+              </div>
+            </div>
+            <div class="form-floating mb-4">
+              <textarea class="form-control form-control-shadow" id="c-message" rows="3" style="height:150px;"
+                placeholder="Comments"></textarea>
+              <label for="c-message" class="form-label">Your Review</label>
+            </div>
+            <div class="form-floating mb-4">
+              <input type="text" class="form-control form-control-shadow" placeholder="name" id="c-name" required>
+              <label for="c-name">Name*</label>
+            </div>
+            <div class="form-floating mb-4">
+              <input type="email" class="form-control form-control-shadow" placeholder="email" id="c-email" required>
+              <label for="c-email">Email*</label>
+            </div>
+            <div class="mb-4">
+              <input type="submit" class="btn btn-primary" value="Submit">
+            </div>
+          </form>
+          <!-- Review Form End -->
+          </div>
+            <!-- Review Tab Content End -->
+          </div>
+          <!-- Tab Content End -->
+          
+        </div>
+        <!-- Col End -->
+        <!-- Col -->
+        <div class="col-lg-4 pb-4 pb-md-0">
+          <!-- Sidebar Wrapper -->
+          <div class="detail-sidebar">
+            <!-- Product Image with Play Button -->
+            <div class="overflow-hidden img-box bg-overlay">
+                <img src="assets/img/course-img-01.jpg" alt="">
+                <a href="https://www.youtube.com/watch?v=_I9czy3cMBg&t=100s" class="glightbox4">
+                  <div class="play-icon">
+                <i class="bi bi-play-fill"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Product Image with Play Button End -->
+            <!-- Product Info List -->
+            <div class="p-3 p-md-4">
+              <div class="sidebar-info-box">
+                <ul>
+                  <li><span class="course-price">$45.00</span> </li>
+                  <li class="my-3">
+                    <a href="#" class="btn btn-primary w-100 py-2">Add to Cart</a>
+                  </li>
+                  
+                  <li>
+                    <span><i class="bi bi-alarm me-2"></i> Duration: </span>
+                    <span>10 Weeks</span>
+                  </li>
+                  <li>
+                    <span><i class="bi bi-journal-medical me-2"></i> Lesson: </span>
+                    <span>10 Lessons</span>
+                  </li>
+                  <li>
+                    <span><i class="bi bi-cart me-2"></i> Enrolled: </span>
+                    <span>40 Students</span>
+                  </li>
+                  <li>
+                    <span><i class="bi bi-person-fill me-2"></i> Instructor: </span>
+                    <span>Tim Burton</span>
+                  </li>
+                  <li>
+                    <span><i class="bi bi-bar-chart-line-fill me-2"></i> Level: </span>
+                    <span>All Levels</span>
+                  </li>
+                </ul>
+              </div>
+              <!-- Share Button with Social Icons -->
+              <button class="btn btn-outline2 w-100" data-bs-toggle="tooltip" data-bs-trigger="click" data-bs-html="true" data-bs-custom-class="custom-popover" title=" <a href='#'><i class='bi bi-twitter'></i></a> <a href='#'><i class='bi bi-facebook'></i></a> <a href='#'><i class='bi bi-instagram'></i></a>"> <i class="bi bi-share-fill me-2"></i> Share This Course </button>
+              <!-- Share Button with Social Icons End -->
+            </div>
+            <!-- Product Info List End -->
+          </div>
+          <!-- Sidebar Wrapper End -->
+        </div>
+        <!-- Col End -->
+      </div>
+    </div>
+  </section>
+<!-- body mid section -->
+<!-- Related courses -->
+<section class="section pt-0">
+    <div class="container">
+      <div class="section-heading-txt">
+        <h3 class="text-start">More Courses for You</h3>
+      </div>
+      <div class="row">
+        <div class="col-12">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper mb-5">
+            <div class="swiper-slide">
+                <div class="courses card rounded overflow-hidden">
+                    <!-- Item Image -->
+                    <div class="img-box">
+                      <a href="course-details.html">
+                        <img src="assets/img/course-img-01.jpg" alt="" class="img-fluid">
+                      </a>
+                      <span class="c-category">All Levels</span>
+                    </div>
+                    <!-- End -->
+                    <div class="p-4 card-body">
+                      <!-- Item Body Content -->
+                      <div class="course_small-info d-flex justify-content-between">
+                          <span><i class="bi bi-journals"></i> 47 L</span>
+                          <span><i class="bi bi-clock"></i> 30h 30m</span>
+                          <span><i class="bi bi-person-fill"></i> 40</span>
+                      </div>
+                      <h3><a href="course-details.html">Web Designer </a></h3>
+                      <div class="course_small-info">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                         4.5 (19)</div>
+                      
+                      <div class="tutor-section d-flex align-items-center pb-4 pt-2">
+                        <div class="tutor-img">
+                          <img src="assets/img/04.jpg" alt="">
+                        </div>
+                        <h6><a href="instructor-details.html">Edward Norton</a> </h6>
+                      </div>
+                      <!-- End -->
+                      <!-- Item Footer -->
+                      <div class="price__group">
+                        <div class="price-box"><span>Free</span> </div>
+                        <a href="course-details.html" class="btn btn__read-more"> Know Details <i
+                            class="bi bi-arrow-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="courses card rounded overflow-hidden">
+                    <!-- Item Image -->
+                    <div class="img-box">
+                      <a href="course-details.html">
+                        <img src="assets/img/course-img-02.jpg" alt="" class="img-fluid">
+                      </a>
+                      <span class="c-category">All Levels</span>
+                    </div>
+                    <!-- End -->
+                    <div class="p-4 card-body">
+                      <!-- Item Body Content -->
+                      <div class="course_small-info d-flex justify-content-between">
+                          <span><i class="bi bi-journals"></i> 47 L</span>
+                          <span><i class="bi bi-clock"></i> 30h 30m</span>
+                          <span><i class="bi bi-person-fill"></i> 40</span>
+                      </div>
+                      <h3><a href="course-details.html">Developer </a></h3>
+                      <div class="course_small-info">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                         4.5 (19)</div>
+                      
+                      <div class="tutor-section d-flex align-items-center pb-4 pt-2">
+                        <div class="tutor-img">
+                          <img src="assets/img/04.jpg" alt="">
+                        </div>
+                        <h6><a href="instructor-details.html">Edward Norton</a> </h6>
+                      </div>
+                      <!-- End -->
+                      <!-- Item Footer -->
+                      <div class="price__group">
+                        <div class="price-box"><span>$15.00</span> <span>$20.00</span></div>
+                        <a href="course-details.html" class="btn btn__read-more"> Know Details <i
+                            class="bi bi-arrow-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="courses card rounded overflow-hidden">
+                    <!-- Item Image -->
+                    <div class="img-box">
+                      <a href="course-details.html">
+                        <img src="assets/img/course-img-03.jpg" alt="" class="img-fluid">
+                      </a>
+                      <span class="c-category">All Levels</span>
+                    </div>
+                    <!-- End -->
+                    <div class="p-4 card-body">
+                      <!-- Item Body Content -->
+                      <div class="course_small-info d-flex justify-content-between">
+                          <span><i class="bi bi-journals"></i> 47 L</span>
+                          <span><i class="bi bi-clock"></i> 30h 30m</span>
+                          <span><i class="bi bi-person-fill"></i> 40</span>
+                      </div>
+                      <h3><a href="course-details.html">Cooking </a></h3>
+                      <div class="course_small-info">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                         4.5 (19)</div>
+                      
+                      <div class="tutor-section d-flex align-items-center pb-4 pt-2">
+                        <div class="tutor-img">
+                          <img src="assets/img/04.jpg" alt="">
+                        </div>
+                        <h6><a href="instructor-details.html">Edward Norton</a> </h6>
+                      </div>
+                      <!-- End -->
+                      <!-- Item Footer -->
+                      <div class="price__group">
+                        <div class="price-box"><span>$15.00</span> <span>$20.00</span></div>
+                        <a href="course-details.html" class="btn btn__read-more"> Know Details <i
+                            class="bi bi-arrow-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="courses card rounded overflow-hidden">
+                    <!-- Item Image -->
+                    <div class="img-box">
+                      <a href="course-details.html">
+                        <img src="assets/img/course-img-04.jpg" alt="" class="img-fluid">
+                      </a>
+                      <span class="c-category">All Levels</span>
+                    </div>
+                    <!-- End -->
+                    <div class="p-4 card-body">
+                      <!-- Item Body Content -->
+                      <div class="course_small-info d-flex justify-content-between">
+                          <span><i class="bi bi-journals"></i> 47 L</span>
+                          <span><i class="bi bi-clock"></i> 30h 30m</span>
+                          <span><i class="bi bi-person-fill"></i> 40</span>
+                      </div>
+                      <h3><a href="course-details.html">Chemistry </a></h3>
+                      <div class="course_small-info">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                         4.5 (19)</div>
+                      
+                      <div class="tutor-section d-flex align-items-center pb-4 pt-2">
+                        <div class="tutor-img">
+                          <img src="assets/img/04.jpg" alt="">
+                        </div>
+                        <h6><a href="instructor-details.html">Edward Norton</a> </h6>
+                      </div>
+                      <!-- End -->
+                      <!-- Item Footer -->
+                      <div class="price__group">
+                        <div class="price-box"><span>$15.00</span> <span>$20.00</span></div>
+                        <a href="course-details.html" class="btn btn__read-more"> Know Details <i
+                            class="bi bi-arrow-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="courses card rounded overflow-hidden">
+                    <!-- Item Image -->
+                    <div class="img-box">
+                      <a href="course-details.html">
+                        <img src="assets/img/course-img-05.jpg" alt="" class="img-fluid">
+                      </a>
+                      <span class="c-category">All Levels</span>
+                    </div>
+                    <!-- End -->
+                    <div class="p-4 card-body">
+                      <!-- Item Body Content -->
+                      <div class="course_small-info d-flex justify-content-between">
+                          <span><i class="bi bi-journals"></i> 47 L</span>
+                          <span><i class="bi bi-clock"></i> 30h 30m</span>
+                          <span><i class="bi bi-person-fill"></i> 40</span>
+                      </div>
+                      <h3><a href="course-details.html">Videography </a></h3>
+                      <div class="course_small-info">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                         4.5 (19)</div>
+                      
+                      <div class="tutor-section d-flex align-items-center pb-4 pt-2">
+                        <div class="tutor-img">
+                          <img src="assets/img/04.jpg" alt="">
+                        </div>
+                        <h6><a href="instructor-details.html">Edward Norton</a> </h6>
+                      </div>
+                      <!-- End -->
+                      <!-- Item Footer -->
+                      <div class="price__group">
+                        <div class="price-box"><span>$15.00</span> <span>$20.00</span></div>
+                        <a href="course-details.html" class="btn btn__read-more"> Know Details <i
+                            class="bi bi-arrow-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="courses card rounded overflow-hidden">
+                    <!-- Item Image -->
+                    <div class="img-box">
+                      <a href="course-details.html">
+                        <img src="assets/img/course-img-02.jpg" alt="" class="img-fluid">
+                      </a>
+                      <span class="c-category">All Levels</span>
+                    </div>
+                    <!-- End -->
+                    <div class="p-4 card-body">
+                      <!-- Item Body Content -->
+                      <div class="course_small-info d-flex justify-content-between">
+                          <span><i class="bi bi-journals"></i> 47 L</span>
+                          <span><i class="bi bi-clock"></i> 30h 30m</span>
+                          <span><i class="bi bi-person-fill"></i> 40</span>
+                      </div>
+                      <h3><a href="course-details.html">Developer </a></h3>
+                      <div class="course_small-info">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                         4.5 (19)</div>
+                      
+                      <div class="tutor-section d-flex align-items-center pb-4 pt-2">
+                        <div class="tutor-img">
+                          <img src="assets/img/04.jpg" alt="">
+                        </div>
+                        <h6><a href="instructor-details.html">Edward Norton</a> </h6>
+                      </div>
+                      <!-- End -->
+                      <!-- Item Footer -->
+                      <div class="price__group">
+                        <div class="price-box"><span>$15.00</span> <span>$20.00</span></div>
+                        <a href="course-details.html" class="btn btn__read-more"> Know Details <i
+                            class="bi bi-arrow-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="courses card rounded overflow-hidden">
+                    <!-- Item Image -->
+                    <div class="img-box">
+                      <a href="course-details.html">
+                        <img src="assets/img/course-img-03.jpg" alt="" class="img-fluid">
+                      </a>
+                      <span class="c-category">All Levels</span>
+                    </div>
+                    <!-- End -->
+                    <div class="p-4 card-body">
+                      <!-- Item Body Content -->
+                      <div class="course_small-info d-flex justify-content-between">
+                          <span><i class="bi bi-journals"></i> 47 L</span>
+                          <span><i class="bi bi-clock"></i> 30h 30m</span>
+                          <span><i class="bi bi-person-fill"></i> 40</span>
+                      </div>
+                      <h3><a href="course-details.html">Cooking </a></h3>
+                      <div class="course_small-info">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                         4.5 (19)</div>
+                      
+                      <div class="tutor-section d-flex align-items-center pb-4 pt-2">
+                        <div class="tutor-img">
+                          <img src="assets/img/04.jpg" alt="">
+                        </div>
+                        <h6><a href="instructor-details.html">Edward Norton</a> </h6>
+                      </div>
+                      <!-- End -->
+                      <!-- Item Footer -->
+                      <div class="price__group">
+                        <div class="price-box"><span>$15.00</span> <span>$20.00</span></div>
+                        <a href="course-details.html" class="btn btn__read-more"> Know Details <i
+                            class="bi bi-arrow-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="courses card rounded overflow-hidden">
+                    <!-- Item Image -->
+                    <div class="img-box">
+                      <a href="course-details.html">
+                        <img src="assets/img/course-img-02.jpg" alt="" class="img-fluid">
+                      </a>
+                      <span class="c-category">All Levels</span>
+                    </div>
+                    <!-- End -->
+                    <div class="p-4 card-body">
+                      <!-- Item Body Content -->
+                      <div class="course_small-info d-flex justify-content-between">
+                          <span><i class="bi bi-journals"></i> 47 L</span>
+                          <span><i class="bi bi-clock"></i> 30h 30m</span>
+                          <span><i class="bi bi-person-fill"></i> 40</span>
+                      </div>
+                      <h3><a href="course-details.html">Developer </a></h3>
+                      <div class="course_small-info">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                         4.5 (19)</div>
+                      
+                      <div class="tutor-section d-flex align-items-center pb-4 pt-2">
+                        <div class="tutor-img">
+                          <img src="assets/img/04.jpg" alt="">
+                        </div>
+                        <h6><a href="instructor-details.html">Edward Norton</a> </h6>
+                      </div>
+                      <!-- End -->
+                      <!-- Item Footer -->
+                      <div class="price__group">
+                        <div class="price-box"><span>$15.00</span> <span>$20.00</span></div>
+                        <a href="course-details.html" class="btn btn__read-more"> Know Details <i
+                            class="bi bi-arrow-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  </main>
+
+  <!-- Footer section -->
+  <footer class="footer pb-0">
+    <div class="container p-4">
+      <div class="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-4" data-aos="fade-right" data-aos-once="ture"
+        data-aos-duration="500" data-aos-delay="20">
+        <!-- Col 1 -->
+        <div class="col">
+          <div class="footer__col-one">
+            <!-- Footer Logo -->
+            <a href="#" class="footer-logo">
+              <img src="assets/img/footer-logo.png" alt="">
+            </a>
+            <!-- End -->
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's</p>
+            
+          </div>
+          <div class="social-links">
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        <!-- End -->
+        <!-- Col 2 -->
+        <div class="col" data-aos="fade-right" data-aos-once="ture" data-aos-duration="600" data-aos-delay="40">
+          <h5>Company</h5>
+          <ul class="mt-3">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <!-- End -->
+        <!-- Col 3 -->
+        <div class="col" data-aos="fade-right" data-aos-once="ture" data-aos-duration="700" data-aos-delay="60">
+          <h5>Support</h5>
+          <ul class="mt-3">
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="faqs.html">FAQ's</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="#">Policies</a></li>
+          </ul>
+        </div>
+        <!-- End -->
+        <!-- Col 4 -->
+        <div class="col" data-aos="fade-right" data-aos-once="ture" data-aos-duration="800" data-aos-delay="80">
+          <h5>Conection with us</h5>
+          <address>
+            Edulink<br>
+            Delhi NCR, Faridabad, Haryana
+            121004, India<br>
+            <strong>Phone No.</strong> +91- 704233XXXX
+          </address>
+        </div>
+        <!-- End -->
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col text-center footer-border-top">
+          <p class="small text-white text-styling mt-4">Copyright@2023. All Rights Reserved | Designed by : <a href="https://technoambience.com/" target="_blank">Technoambience.com</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer End -->
+
+
+  <!-- Bootstrap js -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <!-- aos.js for animation on scroll -->
+  <script src="assets/plugins/aos/aos.js"></script>
+  <!-- Swiper slider js -->
+  <script src="assets/plugins/Swiper-slider/swiper-bundle.min.js"></script>
+  <!-- Glightbox js -->
+  <script src="assets/plugins/glightbox/glightbox.min.js"></script>
+  <!-- Script for Counter -->
+  <script src="assets/plugins/counter/jquery.min.js"></script>
+  <script src="assets/plugins/counter/waypoints.min.js"></script>
+  <script src="assets/plugins/counter/jquery.counterup.min.js"></script>
+  <!-- function.js -->
+  <script src="assets/js/function.js"></script>
+
+</body>
+
+</html>
